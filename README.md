@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Application with UI Components
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), featuring a modern UI with custom components and styling.
+
+## Features
+
+- Responsive layout with Header and Sidebar components
+- Custom UI components including buttons, drawers, and sheets
+- Tailwind CSS for styling
+- TypeScript support
+- SVG icons and assets
 
 ## Getting Started
 
@@ -16,9 +26,26 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/app` - Core application files including layout and global styles
+- `/components` - React components
+  - `/ui` - Reusable UI components (button, drawer, sheet)
+  - `Header.tsx` - Main navigation header
+  - `Sidebar.tsx` - Application sidebar
+  - `NewDocumentButton.tsx` - Document creation button
+- `/lib` - Utility functions
+- `/public` - Static assets including SVG icons
+
+## Styling
+
+This project uses:
+- [Tailwind CSS](https://tailwindcss.com) for styling
+- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a custom font family
+
+## Development
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 ## Learn More
 
